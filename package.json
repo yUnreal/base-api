@@ -1,7 +1,7 @@
 {
-    "name": "tsbase",
+    "name": "base-api",
     "version": "1.0.0",
-    "description": "Base for all TypeScript projects",
+    "description": "Base for all APIs",
     "main": "src/index.ts",
     "scripts": {
         "test": "tsx index.test.ts",
@@ -26,5 +26,9 @@
         "prettier": "^3.0.0",
         "tsx": "^4.7.0",
         "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "hyper-express": "^6.15.2",
+        "tiny-glob": "^0.2.9"
     }
 }
